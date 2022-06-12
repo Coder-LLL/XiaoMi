@@ -1,0 +1,94 @@
+body {
+  min-width: 1226px;
+  line-height: 1.5;
+}
+
+/* 用于logo图清除字体 */
+.ir {
+}
+/* logo图 */
+.logo {
+  position: relative;
+  width: 56px;
+  height: 56px;
+  display: inline-block;
+  font-size: 0;
+}
+.logo::before {
+  content: "";
+  display: inline-block;
+  width: 56px;
+  height: 56px;
+  background-image: url(../img/xiaomishouji/logo-mi2.png);
+  background-size: 56px;
+}
+
+/* 清楚浮动 */
+.clear::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+/* 竖线间隔符 */
+.sep {
+  margin: 0 0.3em;
+  color: #424242;
+}
+/* main里面的几个大广告图 */
+.home-banner-box {
+  height: 120px;
+  margin: 22px 0;
+  overflow: hidden;
+}
+.home-banner-box img {
+  width: 1226px;
+  height: 120px;
+}
+/* main里面每个模块的标题 */
+.box-hd {
+  position: relative;
+  height: 58px;
+}
+.box-hd .title {
+  margin: 0;
+  color: #333;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+}
+
+.row {
+  margin-left: -14px;
+}
+
+.span1,
+.span2,
+.span3,
+.span4,
+.span5,
+.span6,
+.span7,
+.span8,
+.span9,
+.span10,
+.span11,
+.span12,
+.span13,
+.span14,
+.span15,
+.span16,
+.span17,
+.span18,
+.span19,
+.span20 {
+  float: left;
+  margin-left: 14px;
+  min-height: 1px;
+}
+/*  */
+.span4 {
+  width: 234px;
+}
+.span16 {
+  width: 978px;
+}

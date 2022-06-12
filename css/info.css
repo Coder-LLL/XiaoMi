@@ -1,0 +1,63 @@
+.site-info {
+  padding: 30px 0;
+  font-size: 12px;
+  background: #fafafa;
+}
+.site-info .container {
+  position: relative;
+}
+.site-info .logo {
+  width: 56px;
+  height: 56px;
+  margin-right: 20px;
+  background: url(../img/index/logo-mi2.png) no-repeat;
+  background-size: 56px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.site-info .info-text {
+  color: #b0b0b0;
+  padding-left: 77px;
+}
+.site-info .info-text a {
+  color: #b0b0b0;
+}
+.site-info .info-text a:hover {
+  color: #ff6700;
+}
+.site-info .info-text .sites a {
+  color: #757575;
+}
+.site-info .info-text .sites a:hover {
+  color: #ff6700;
+}
+.site-info .info-text p {
+  margin: 0;
+}
+.site-info .info-links {
+  height: 28px;
+  margin: 4px 0 15px;
+  padding-left: 77px;
+}
+.site-info .info-links a {
+  display: inline-block;
+}
+.site-info .info-links img {
+  height: 28px;
+  width: auto;
+  margin-left: 0;
+}
+.site-info .slogan {
+  width: 100%;
+  margin: 30px auto 0;
+  height: 19px;
+  background: url(../img/index/slogan2020.png) no-repeat center 0;
+}
+.ir {
+  display: block;
+  text-align: left;
+  text-indent: -9999em;
+  overflow: hidden;
+}

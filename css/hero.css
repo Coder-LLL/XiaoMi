@@ -1,0 +1,131 @@
+.home-hero-swiper {
+  height: 460px;
+  /* background-color: pink; */
+}
+.home-hero {
+  margin-bottom: 26px;
+}
+.swiper {
+  /* width: 600px;
+  height: 300px; */
+}
+.swiper-wrapper {
+  position: relative;
+}
+.swiper .swiper-slide {
+  width: 1226px;
+  height: 460px;
+}
+/* 充值一下轮播图上一张和下一张按钮的颜色 设置为透明 */
+.reset-color {
+  color: transparent;
+}
+.swiper-button {
+  width: 41px;
+  height: 69px;
+  background-image: url(../img/index/icon-slides.png);
+}
+.swiper-button-prev {
+  left: 234px;
+  background-position: -84px 50%;
+}
+.swiper-button-prev:hover {
+  background-position: 0 0;
+}
+.swiper-button-next {
+  background-position: -125px 50%;
+}
+.swiper-button-next:hover {
+  background-position: -42px 0;
+}
+.swiper-pagination {
+  width: 400px !important;
+  position: absolute;
+  left: auto !important;
+  right: 30px !important;
+  bottom: 20px !important;
+  text-align: right !important;
+}
+/* 分页小圆点默认状态 */
+.swiper-pagination-bullet {
+  width: 6px;
+  height: 6px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  margin: 0 4px;
+}
+/* 分页小圆点激活状态 */
+.swiper-pagination-bullet-active {
+  background-color: hsla(0, 0%, 100%, 0.4) !important;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+
+/* 轮播图下方的导航 */
+.home-hero-sub {
+  margin-top: 14px;
+}
+.home-channel-list {
+  margin: 0;
+  padding: 3px;
+  background-color: #5f5750;
+  text-align: center;
+  font-size: 12px;
+}
+.home-channel-list li {
+  float: left;
+  width: 70px;
+  height: 82px;
+  padding: 0 3px;
+}
+.home-channel-list a {
+  display: block;
+  padding-top: 18px;
+  color: #fff;
+  opacity: 0.7;
+  text-overflow: ellipsis;
+  transition: opacity 0.2s;
+}
+.home-channel-list a:hover {
+  opacity: 1;
+}
+.home-channel-list a img {
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin: 0 auto 4px;
+}
+
+.home-promo-list {
+  margin: 0;
+  padding: 0;
+}
+.home-promo-list li {
+  float: left;
+  width: 316px;
+  height: 170px;
+  margin-left: 15px;
+  transition: box-shadow 0.2s linear, -webkit-box-shadow 0.2s linear;
+}
+.home-promo-list li:nth-child(1) {
+  margin-left: 0;
+}
+
+.home-promo-list li:hover {
+  z-index: 2;
+  -webkit-box-shadow: 0 15px 30px rgb(0 0 0 / 20%);
+  box-shadow: 0 15px 30px rgb(0 0 0 / 20%);
+}
+.home-promo-list a {
+  display: block;
+  height: 170px;
+  background: url("../img/index/span-bg.png") no-repeat 50%;
+}
+.home-promo-list img {
+  display: block;
+  height: 316px;
+  height: 170px;
+}
